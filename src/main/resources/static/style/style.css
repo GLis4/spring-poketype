@@ -1,0 +1,52 @@
+
+body{
+    background-color: #F6F6F6;
+    font-family: 'Inter';
+    font-weight: bold;
+    color: #343434;
+    margin: 0; 
+    padding: 0;
+    
+}
+
+.nav-logo span{
+    color: #343434;
+    font-style: italic;
+}
+
+.nav-logo {
+    color: #ff581b;
+    line-height: 1.5rem;
+
+}
+
+.nav-div{
+    position: relative;
+    display: flex;
+    align-items: center;
+
+    background-color: rgb(230, 230, 230);
+    width: 100%;
+    padding-left: 3rem;
+}
+.nav-menu{
+    position: absolute;
+    left:49%;
+    transform: translateX(-50%);
+}
+
+.nav-items-list{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    font-size: 1.2rem;
+    gap: 60px;
+    padding: 0.6rem;
+
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #343434;
+
+    text-decoration: none;
+
+}
